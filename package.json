@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --inspect index.js",
-    "dev": "vite"
+    "build:css": "postcss public/styles/tailwind.css -o public/styles/styles.css"
   },
   "keywords": [],
   "author": "",
